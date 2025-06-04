@@ -2,7 +2,7 @@
 
 I help non-technical founders and small teams build and scale smarter. Whether you’re launching your first product, working with AI-generated code, or navigating messy legacy systems, I’m here to bring clarity, stability, and experience to your technical journey.
 
-With over 12 years of experience across startups, consultancies, and mission-driven organisations, I combine strategic thinking with deep hands-on skills. From architecture to UX, from DevOps to roadmap planning — I speak founder *and* developer.
+With over 12 years of experience across startups, consultancies, and mission-driven organisations, I combine strategic thinking with deep hands-on skills. From architecture to UX, from DevOps to roadmap planning — I speak founder _and_ developer.
 
 ## Services
 
