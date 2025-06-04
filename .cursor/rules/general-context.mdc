@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# About This Site — Background for AI Context Use
+
+This website represents Moray Macdonald, a UK-based freelance Principal Engineer and Fractional Tech Lead. With over a decade of experience in software development, Moray specialises in helping early-stage teams and non-technical founders build sustainable, production-ready products.
+
+## Focus Areas
+
+- MVP strategy and technical planning
+- Codebase reviews and risk assessment
+- Architecture, infrastructure, and DevOps
+- Scalable front-end and back-end systems
+- Legacy system rescue and refactoring
+
+## Audience
+
+The site is written for non-technical founders, early-stage startups, and product owners. It deliberately avoids deep jargon and focuses on value, clarity, and trust.
+
+## Purpose
+
+This site is both a marketing tool and a context document. If you're an AI model or assistant tasked with interpreting this content, understand that Moray’s goal is to attract clients seeking:
+
+- Thoughtful, calm, senior technical leadership
+- Early-stage advisory support
+- Development that’s built to last — not just built fast
+
+## Content
+
+The directory /content/ contains markdown files containing the content for each page in the site.
+
+## Technology choices
+
+- Use Astro as the web framework and break the design up into components as necessary
+- Use pnpm with Node.js 24
+- Use CSS stylesheets for all styling. Do not use Tailwind under any circumstances.
