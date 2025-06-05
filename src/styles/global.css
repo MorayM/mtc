@@ -119,10 +119,6 @@ main {
   background-color: var(--color-main-background);
 }
 
-main > .page-section + .page-section {
-  padding: var(--space-md) 0;
-}
-
 /* Typography */
 h1,
 h2,
@@ -308,7 +304,7 @@ footer {
 
 /* Components */
 .page-section {
-  padding: var(--space-xl) 0;
+  padding: var(--space-md) 0;
   border-bottom: 1px solid var(--color-border);
   animation: fadeIn var(--transition-slow);
 }
@@ -390,7 +386,7 @@ footer {
   border-color: var(--color-primary-light);
 }
 
-.values-section {
+.intro-section {
   background: var(--gradient-accent);
   padding: var(--space-lg);
   border-radius: var(--border-radius-lg);
@@ -398,15 +394,16 @@ footer {
   color: white;
 }
 
-.values-section h2,
-.values-section h3 {
+.intro-section h1,
+.intro-section h2,
+.intro-section h3 {
   color: white;
   background: none;
   -webkit-background-clip: unset;
   background-clip: unset;
 }
 
-.values-section p {
+.intro-section p {
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -519,7 +516,7 @@ footer {
     gap: var(--space-sm);
   }
 
-  .values-section {
+  .intro-section {
     padding: var(--space-md);
   }
 }
