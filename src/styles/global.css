@@ -320,11 +320,32 @@ footer {
 
 .service-list li {
   margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
   transition: transform var(--transition-fast);
+}
+
+.service-list li::before {
+  content: "→";
+  color: var(--color-primary);
+  font-size: 1.2em;
+  transition: color var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .service-list li:hover {
   transform: translateX(var(--space-xs));
+}
+
+.service-list li:hover::before {
+  color: var(--color-accent);
+}
+
+.service-list a {
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 1.1em;
 }
 
 .feature-list {
