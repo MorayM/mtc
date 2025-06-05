@@ -1,0 +1,157 @@
+---
+import Layout from '../layouts/Layout.astro'
+---
+
+<Layout title="Contact — Moray Macdonald">
+  <main class="container">
+    <section class="page-section">
+      <h1>Get in Touch</h1>
+      <p>Ready to build something great? Let's talk about your project or technical challenges.</p>
+    </section>
+
+    <section class="page-section">
+      <div class="contact-form-wrapper">
+        <form class="contact-form" action="/api/contact" method="POST">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="service">I'm interested in:</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="preflight-check">Pre-Flight Check: MVP Review</option>
+              <option value="fractional-tech-lead">Fractional Tech Leadership</option>
+              <option value="build-smart">Early-Stage Tech Planning</option>
+              <option value="other">Something Else</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell me about your project</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-button">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Other Ways to Connect</h2>
+          <ul class="feature-list">
+            <li>
+              Email directly at <a href="mailto:hello@moraymacdonald.com"
+                >hello@moraymacdonald.com</a
+              >
+            </li>
+            <li>
+              Schedule a <a href="#" target="_blank" rel="noopener noreferrer"
+                >15-minute intro call</a
+              >
+            </li>
+            <li>
+              Connect on <a
+                href="https://www.linkedin.com/in/moraymacdonald"
+                target="_blank"
+                rel="noopener noreferrer">LinkedIn</a
+              >
+            </li>
+          </ul>
+
+          <div class="values-section">
+            <h3>Quick Response Times</h3>
+            <p>
+              I aim to respond to all inquiries within 24 hours during the work week. For urgent
+              matters, please mention this in your message.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .contact-form-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: var(--space-xl);
+    align-items: start;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .form-group label {
+    font-weight: 500;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    padding: var(--space-sm);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-family: var(--font-family-base);
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.1);
+  }
+
+  .submit-button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: var(--space-md) var(--space-lg);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .submit-button:hover {
+    background-color: var(--color-secondary);
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .contact-info h2 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .contact-form-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

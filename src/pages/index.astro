@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <html lang="en">
@@ -11,9 +12,60 @@ import '../styles/global.css'
     <title>Astro</title>
   </head>
   <body>
-    <main class="container">
-      <h1>Welcome to Astro</h1>
-      <p>Get started by editing this page</p>
-    </main>
+    <Layout title="Moray Macdonald — Fractional Tech Lead & Independent Consultant">
+      <main class="container">
+        <section class="page-section">
+          <h1>Moray Macdonald — Fractional Tech Lead & Independent Consultant</h1>
+
+          <p>
+            I help non-technical founders and small teams build and scale smarter. Whether you're
+            launching your first product, working with AI-generated code, or navigating messy legacy
+            systems, I'm here to bring clarity, stability, and experience to your technical journey.
+          </p>
+
+          <p>
+            With over 12 years of experience across startups, consultancies, and mission-driven
+            organisations, I combine strategic thinking with deep hands-on skills. From architecture
+            to UX, from DevOps to roadmap planning — I speak founder and developer.
+          </p>
+        </section>
+
+        <section class="page-section">
+          <h2>Services</h2>
+          <ul class="service-list">
+            <li>
+              <a href="/preflight-check">Pre-Flight Check: MVP Review & Risk Assessment</a>
+            </li>
+            <li>
+              <a href="/fractional-tech-lead">Your On-Call Tech Lead (Fractional Leadership)</a>
+            </li>
+            <li>
+              <a href="/build-smart">Build Smart From Day One: Early-Stage Tech Planning</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-section">
+          <h2>Case Studies</h2>
+          <ul class="service-list">
+            <li>
+              <a href="/groop-case-study">Groop: Leading a Technical Turnaround</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="page-section">
+          <div class="values-section">
+            <h2>Values</h2>
+            <p>
+              I support LGBTQ+ inclusive and climate-focused businesses, and offer preferential
+              rates to B-Corps and purpose-driven teams. I believe thoughtful technology can and
+              should support a fairer, more sustainable future.
+            </p>
+            <a href="/contact" class="cta-link">Need help with something technical? Get in touch</a>
+          </div>
+        </section>
+      </main>
+    </Layout>
   </body>
 </html>

@@ -27,10 +27,6 @@ This site is both a marketing tool and a context document. If you're an AI model
 - Early-stage advisory support
 - Development that’s built to last — not just built fast
 
-## Content
-
-The directory /content/ contains markdown files containing the content for each page in the site.
-
 ## Technology choices
 
 - Use Astro as the web framework and break the design up into components as necessary
