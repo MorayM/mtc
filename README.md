@@ -1,35 +1,27 @@
-# Astro Starter Kit: Minimal
+# Moray Macdonald — Professional Website
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+This repository contains the source code for my professional website where I showcase my work as a Fractional Tech Lead and Independent Consultant. The site is built with Astro, focusing on performance, accessibility, and clean design, and has been mostly vibe-coded as an experiment with Cursor and claude-3.5-sonnet (results have been mixed!)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## About
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+As a Principal Engineer and Fractional Tech Lead, I help early-stage teams and non-technical founders build sustainable, production-ready products. This website serves as both a portfolio and a resource for potential clients to understand my approach to technical leadership and development.
 
-## 🚀 Project Structure
+## Key Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- Modern, responsive design with a focus on readability
+- Case studies and client success stories
+- Pre-Flight Check assessment tool for potential clients
+- Detailed service offerings for technical leadership and development
+- Contact form for project inquiries
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Technology Stack
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- [Astro](https://astro.build) for static site generation
+- Custom CSS with a focus on performance (no Tailwind, despite Claude's protestations)
+- SVG animations and modern design elements
+- Optimized for accessibility and SEO
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -42,6 +34,6 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Contact
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+If you're interested in working together or have questions about this project, please visit [this website](https://macdonaldtechnology.co.uk) or reach out through the contact form.
