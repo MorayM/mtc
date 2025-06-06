@@ -10,66 +10,33 @@ import Layout from '../layouts/Layout.astro'
     </section>
 
     <section class="page-section">
-      <div class="contact-form-wrapper">
-        <form class="contact-form" action="/api/contact" method="POST">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
+      <div class="contact-info">
+        <ul class="feature-list">
+          <li>
+            Email directly at <a href="mailto:hello@moray.dev">hello@moray.dev</a>
+          </li>
+          <li>
+            Schedule a <a
+              href="https://calendly.com/moray-macdonaldtechnology/30min"
+              target="_blank"
+              rel="noopener noreferrer">30-minute intro call</a
+            >
+          </li>
+          <li>
+            Connect on <a
+              href="https://www.linkedin.com/in/moray-macdonald-730534169/"
+              target="_blank"
+              rel="noopener noreferrer">LinkedIn</a
+            >
+          </li>
+        </ul>
 
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-
-          <div class="form-group">
-            <label for="service">I'm interested in:</label>
-            <select id="service" name="service">
-              <option value="">Select a service...</option>
-              <option value="preflight-check">Pre-Flight Check: MVP Review</option>
-              <option value="fractional-tech-lead">Fractional Tech Leadership</option>
-              <option value="build-smart">Early-Stage Tech Planning</option>
-              <option value="other">Something Else</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="message">Tell me about your project</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
-
-          <button type="submit" class="submit-button">Send Message</button>
-        </form>
-
-        <div class="contact-info">
-          <h2>Other Ways to Connect</h2>
-          <ul class="feature-list">
-            <li>
-              Email directly at <a href="mailto:hello@moraymacdonald.com"
-                >hello@moraymacdonald.com</a
-              >
-            </li>
-            <li>
-              Schedule a <a href="#" target="_blank" rel="noopener noreferrer"
-                >15-minute intro call</a
-              >
-            </li>
-            <li>
-              Connect on <a
-                href="https://www.linkedin.com/in/moraymacdonald"
-                target="_blank"
-                rel="noopener noreferrer">LinkedIn</a
-              >
-            </li>
-          </ul>
-
-          <div class="values-section">
-            <h3>Quick Response Times</h3>
-            <p>
-              I aim to respond to all inquiries within 24 hours during the work week. For urgent
-              matters, please mention this in your message.
-            </p>
-          </div>
+        <div class="values-section">
+          <h3>Quick Response Times</h3>
+          <p>
+            I aim to respond to all inquiries within 24 hours during the work week. For urgent
+            matters, please mention this in your message.
+          </p>
         </div>
       </div>
     </section>
