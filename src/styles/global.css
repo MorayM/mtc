@@ -137,13 +137,13 @@ h6 {
 
 h1 {
   font-size: var(--font-size-h1);
-  margin-top: var(--space-xl);
+  margin-top: var(--space-lg);
   letter-spacing: -0.02em;
 }
 
 h2 {
   font-size: var(--font-size-h2);
-  margin-top: var(--space-lg);
+  margin-top: var(--space-md);
   letter-spacing: -0.01em;
 }
 
@@ -415,6 +415,31 @@ footer {
   color: white;
 }
 
+.intro-content {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.intro-image {
+  flex: 0 0 400px;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
 .intro-section h1,
 .intro-section h2,
 .intro-section h3 {
@@ -543,7 +568,24 @@ footer {
     justify-content: center;
   }
 
-  .intro-section {
-    padding: var(--space-md);
+  .intro-content {
+    flex-direction: column-reverse;
+    gap: var(--space-lg);
+  }
+
+  .intro-image {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+
+  .intro-text p {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
